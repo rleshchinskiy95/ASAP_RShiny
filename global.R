@@ -8,7 +8,7 @@ library(purrr)
 # result: claims #
 # Load-in and Clean claims files
 {
-  claims_path = "C:/Users/leshc/OneDrive/Desktop/DSA_BootCamp/R Project - RL/ASAP/data/claims.xlsx"
+  claims_path = "data/claims.xlsx"
   claims = read_excel(claims_path, sheet = "claims")
   
   claims = claims %>%
@@ -35,7 +35,7 @@ library(purrr)
 # result: hours # 
 # Load-in and clean hours file
 {
-  hours_path = "C:/Users/leshc/OneDrive/Desktop/DSA_BootCamp/R Project - RL/ASAP/data/hours.xlsx"
+  hours_path = "data/hours.xlsx"
   hours = read_excel(hours_path, sheet = "hours")
   
   hours = hours %>%
